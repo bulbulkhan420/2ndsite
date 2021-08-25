@@ -1,0 +1,49 @@
+.crd-sld1 p{
+    text-align: center;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 1rem;
+
+}
+.crd-sld1{
+    width: 80%;
+}
+.crd-sld2 p{
+    text-align: center;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 1rem;
+
+}
+.crd-sld2{
+    width: 80%;
+}
+.rev1,.rev2,.rev3,.rev4,.rev5,.rev6{
+    transform: scale(.9);   
+    margin-top:1rem ;
+    border-radius: 3px;
+}
+.rev6 h5{
+    font-size: medium;
+    padding-top: 4rem;
+}
+.rev5 h5{
+    font-size: medium;
+    padding-top: 4rem;
+}
+.rev4 h5{
+    font-size: medium;
+    padding-top: 4rem;
+}
+.rev3 h5{
+    font-size: medium;
+    padding-top: 4rem;
+}
+.rev2 h5{
+    font-size: medium;
+    padding-top: 4rem;
+}
+.rev1 h5{
+    font-size: medium;
+    padding-top: 4rem;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="icon/css/all.css">
+    <title>Document</title>
+    <style>
+        .pgloder{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 10000;
+    background: rgb(31, 25, 25);
+}
+a{
+    text-decoration: none;
+}
+.pgloder .pgani{
+    height: 40px;
+    width: 40px;
+    border: 5px solid rgb(114, 93, 76);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    animation: pg infinite 1s;
+}
+@keyframes pg{
+    0%{
+        border-top: rgb(8, 10, 161);
+    }
+    33%{
+        border-right: rgb(220, 243, 11);
+    }
+    66%{
+        border-bottom: rgb(233, 15, 15);
+    }
+    100%{
+        border-left: rgb(12, 197, 36);
+    }
+}
+.fdf{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: burlywood;
+    color: black;
+    text-align: center;
+}
+ i{
+     position:fixed;
+     transform: scale(3);
+     bottom:5%;
+     right: 5%;
+     color: black;
+     background-color: rgb(252, 170, 17);
+     border-radius: 5%;
+ }
+    </style>
+</head>
+<body>
+    <div class="pgloder">
+        <div class="pgani"></div>
+    </div>
+    <div class="fdf">
+        This is my designed website. Here i not publised any project yet. Thanks for visiting 
+    </div>
+    <a href="index.html"><i class="fa fa-arrow-right"></i></a>
+    <script src="jquery.min.js"></script>
+    <script>
+        $(window).on("load",function(){
+           $('.pgloder').css("display","none");
+        });
+    </script>
+</body>
+</html>

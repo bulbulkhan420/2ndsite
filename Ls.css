@@ -1,0 +1,910 @@
+.pgloder{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 10000;
+    background: rgb(31, 25, 25);
+}
+a{
+    color: white;
+}
+.pgloder .pgani{
+    height: 40px;
+    width: 40px;
+    border: 5px solid rgb(114, 93, 76);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    animation: pg infinite 1s;
+}
+@keyframes pg{
+    0%{
+        border-top: rgb(8, 10, 161);
+    }
+    33%{
+        border-right: rgb(220, 243, 11);
+    }
+    66%{
+        border-bottom: rgb(233, 15, 15);
+    }
+    100%{
+        border-left: rgb(12, 197, 36);
+    }
+}
+.img-sld1{
+    position: fixed;
+    z-index: 1005;
+    height: 100vh;
+    width: 100%;
+    top:-200%;
+    background: gray;
+    opacity: 1;
+    transition: 1s;
+}
+.img-sld1:target{
+    top:0%;
+}
+.crd-sld1{
+    
+    width:40%;
+    height: auto;
+    
+    box-shadow: 1px 2px 3px 2px rgb(182, 172, 172);
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    border-radius: 5%;
+    overflow: hidden;
+    
+}
+.crd-sld1 img{
+    filter: drop-shadow(50%);
+    width: 100%;
+    height: 50vh;
+    
+}
+.crd-sld1 p{
+    text-align: center;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 1rem;
+
+}
+.img-sld1 span{
+    position: absolute;
+    top:3px;
+    right: 3px;
+}
+.img-sld1 span a i{
+    color:white;
+    font-size: 30px;
+    background: burlywood;
+}
+.img-sld1{
+    position: fixed;
+    z-index: 1005;
+    height: 100vh;
+    width: 100%;
+    top:-200%;
+    background: gray;
+    opacity: 1;
+    transition: 1s;
+}
+.img-sld1:target{
+    top:0%;
+}
+.img-sld2{
+    position: fixed;
+    z-index: 1006;
+    height: 100vh;
+    width: 100%;
+    top:-200%;
+    background: gray;
+    opacity: 1;
+    transition: 1s;
+}
+.img-sld2:target{
+    top:0%;
+}
+.crd-sld2{
+    
+    width:40%;
+    height: auto;
+    
+    box-shadow: 1px 2px 3px 2px rgb(182, 172, 172);
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    border-radius: 5%;
+    overflow: hidden;
+    
+}
+.crd-sld2 img{
+    filter: drop-shadow(50%);
+    width: 100%;
+    height: 50vh;
+    
+}
+.crd-sld2 p{
+    text-align: center;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 1rem;
+
+}
+.img-sld2 span{
+    position: absolute;
+    top:3px;
+    right: 3px;
+}
+.img-sld2 span a i{
+    color:white;
+    font-size: 30px;
+    background: burlywood;
+}
+.img-sld2{
+    position: fixed;
+    z-index: 1006;
+    height: 100vh;
+    width: 100%;
+    top:-200%;
+    background: gray;
+    opacity: 1;
+    transition: 1s;
+}
+.img-sld2:target{
+    top:0%;
+}
+
+
+.nv{
+    position: fixed;
+    z-index: 1001;
+}
+.aa{
+    height: 50px;
+    width: 100%;
+    background: rgb(18, 3, 61);
+    display: none;
+}
+.col{
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+}
+.col1{
+    float: right;
+    box-sizing: border-box;
+    padding: 5px 28px 5px 5px;
+ 
+}
+.bb{
+    height: 65px;
+    width: 100%;
+    background: rgb(18, 3, 61);
+}
+.col4{
+    box-sizing: border-box;
+    padding: 8px  0px 8px 35px;
+    float: left;
+    
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+.ab{
+    display: flex;
+    float: right;
+    padding-right: 35px;
+}
+.ab li{
+   font-size: large;  
+    padding: 19px 15px 7px 11px;
+    transition: 1s;
+}
+.ab li:hover{
+    border-bottom: 5px solid rgb(218, 241, 6);
+}
+.ab li:hover> a{
+    color:lightyellow;
+}
+.na{
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    background: rgb(40, 25, 65);
+    box-shadow: rgb(141, 117, 161) 2px 3px;
+}
+.na .col8 li{
+ 
+    text-align: center;
+    
+    padding: 20px;
+}
+.ttu{
+    position: fixed;
+    overflow: hidden;
+    top:-500%;
+}
+.aa,.bb{
+    position: fixed;
+    overflow: hidden;
+}
+.col1,.col4{
+    color: aliceblue;
+    animation: bul 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes bul{
+    0%{
+        color:rgb(24, 7, 41);
+        transform: scale(.4);
+        
+    }
+    33%{
+        color: rebeccapurple;
+        transform: scale(.6);
+        
+    }
+    66%{
+        color:rgb(151, 120, 180);
+        transform: scale(.8);
+        
+    }
+    100%{
+        color: white;
+        transform: scale(1);
+        
+    }
+}
+#pics{
+    background-image: url('M2.webp') ;
+    background-position: center;
+    background-repeat: no-repeat;
+     background-size: cover;
+    height: 100vh;
+    width: auto;
+    box-sizing: border-box;
+}
+.kl{
+    padding-top: 50vh;
+    text-align: center;
+}
+.count{
+    background-image: linear-gradient(rgb(18, 3, 31),rgb(18, 3, 31),rgb(18, 3, 46));
+    opacity: 1;
+    height: 50vh;
+    width: 100%;
+    color: rgb(252, 253, 251);
+    box-sizing: border-box;
+    position: relative;
+    
+    
+    
+}
+
+.con-1{
+    position: absolute;
+   left:20% ;
+    top:40%;
+    opacity: 1;
+}
+.con-2{
+    position: absolute;
+    right: 20% ;
+    top:40%;
+    opacity: 1;
+}
+.service-head{
+    display: grid;
+    background-color: rgb(1, 4, 43);
+    grid-template-areas:
+    'hed hed hed hed hed'
+    '.  div div div .' ;
+    
+    
+    width: 100%;
+    color: white;
+}
+.service-head h1{
+    grid-area: hed;
+    text-align: center;
+    padding-top: 1rem;
+}
+.service-head div{
+    grid-area: div;
+    height: 3px;
+    
+    
+    background: rgb(249, 249, 250);
+}
+.service{
+    display: grid;
+    
+    width: 100%;
+    background: rgb(1, 4, 43);
+    grid-template-areas: 
+    'crd crd1 crd2 crd3';
+}
+.crd{
+    grid-area: crd;
+    width: 100%;
+    height: auto;
+    transform: scale(.9);
+    box-shadow: 1px 2px 3px 2px rgb(182, 172, 172);
+    position: static;
+    background: white;
+    border-radius: 5%;
+    overflow: hidden;
+}
+.crd img{
+    filter: drop-shadow(50%);
+    width: 100%;
+    height: 40vh;
+    
+}
+.crd p{
+    text-align: center;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 1rem;
+
+}
+.crd1{
+    grid-area: crd1;
+    width: 100%;
+    height: auto;
+    transform: scale(.9);
+    box-shadow: 1px 2px 3px 2px rgb(163, 159, 159);
+    position: static;
+    background: white;
+    border-radius: 5%;
+    overflow: hidden;
+}
+.crd1 img{
+   filter: grayscale(60%);
+    width: 100%;
+    height: 40vh;
+}
+.crd1 p{
+    text-align: center;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 1rem;
+
+}
+.crd2{
+    grid-area: crd2;
+    width: 100%;
+    height: auto;
+    border-radius: 5%;
+    transform: scale(.9);
+    box-shadow: 1px 2px 3px 2px rgb(163, 159, 159);
+    position: static;
+    background: white;
+    overflow: hidden;
+}
+.crd2 img{
+    filter: saturate(50%);
+    width: 100%;
+    height: 40vh;
+}
+.crd2 p{
+    text-align: center;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 1rem;
+
+}
+.crd3{
+    grid-area: crd2;
+    width: 100%;
+    height: auto;
+    border-radius: 5%;
+    transform: scale(.9);
+    box-shadow: 1px 2px 3px 2px rgb(163, 159, 159);
+    position: static;
+    background: white;
+    overflow: hidden;
+}
+.crd3 img{
+    filter: saturate(50%);
+    width: 100%;
+    height: 40vh;
+}
+.crd3 p{
+    text-align: center;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 1rem;
+
+}
+.crd:hover{
+    box-shadow: 2px 3px 4px 3px rgb(117, 45, 45);
+}
+.crd1:hover{
+    box-shadow: 2px 3px 4px 3px rgb(117, 45, 45);
+}
+.crd2:hover{
+    box-shadow: 2px 3px 4px 3px rgb(117, 45, 45);
+}
+.crd3:hover{
+    box-shadow: 2px 3px 4px 3px rgb(117, 45, 45);
+}
+.service div a{
+    color:rgb(5, 6, 20);
+}
+.team{
+    width: 100%;
+    height: 200vh;
+    display: grid;
+    background-color: rgb(1, 4, 43);
+    grid-template-areas: 
+    'tm1 tm2'
+    'tm3 tm4';
+}
+.team-mem1{
+    grid-area: tm1;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    min-height: 380px;
+    overflow: hidden;
+    transform: scale(.9, .9);
+    box-shadow: 2px 3px 3px 1px gray;
+    background-color: rgb(18, 3, 46);
+    border-radius: 3%;
+}
+.team-mem2{
+    grid-area: tm2;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    min-height: 380px;
+    overflow: hidden;
+    transform: scale(.9, .9);
+    box-shadow: 2px 3px 3px 1px gray;
+    background-color: rgb(18, 3, 46);
+    border-radius: 3%;
+}
+.team-mem3{
+    grid-area: tm3;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    min-height: 380px;
+    overflow: hidden;
+    transform: scale(.9, .9);
+    box-shadow: 2px 3px 3px 1px gray;
+    background-color: rgb(18, 3, 46);
+    border-radius: 3%;
+}
+.team-mem4{
+    grid-area: tm4;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    min-height: 380px;
+    overflow: hidden;
+    transform: scale(.9, .9);
+    box-shadow: 2px 3px 3px 1px gray;
+    background-color: rgb(18, 3, 46);
+    border-radius: 3%;
+    
+}
+
+.team-mem1 img{
+    height: 80%;
+    width: 100%;
+}
+.team-mem2 img{
+    height: 80%;
+    width: 100%;
+}
+.team-mem3 img{
+    height: 80%;
+    width: 100%;
+}
+.team-mem4 img{
+    height: 80%;
+    width: 100%;
+}
+body{
+    background-color: rgb(1, 4, 43);
+}
+.mem1{
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    background: black;
+    opacity: .7;
+    right: -100%;
+    top: 0px;
+    transition: 1s;
+}
+.mem2{
+    position: absolute;
+    height: 100%;
+    width: 50%;background: black;
+    opacity: .7;
+    right: -100%;
+    top: 0px;
+    transition: 1s;
+}
+.mem3{
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    background: black;
+    opacity: .7;
+    right: -100%;
+    top: 0px;
+    transition: 1s;
+}
+.mem4{
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    background: black;
+    opacity: .7;
+    right: -100%;
+    top: 0px;
+    transition: 1s;
+}
+.xxy .fa-facebook{
+    position: absolute;
+    transform: scale(3);
+    top:10%;
+    right: 40%;
+    color:white;
+}
+.xxy .fa-linkedin{
+    position: absolute;
+    transform: scale(3);
+    top:30%;
+    right: 40%;
+    color: white;
+}
+.xxy .fa-twitter{
+    position: absolute;
+    transform: scale(3);
+    top:50%;
+    right: 40%;
+    color: white;
+}
+.team-mem1:hover >.mem1{
+    right: 0px;
+}
+.team-mem4:hover >.mem4{
+    right: 0px;
+}
+.team-mem3:hover >.mem3{
+    right: 0px;
+}
+.team-mem2:hover >.mem2{
+    right: 0px;
+}
+.team-head{
+    display: grid;
+    background-color: rgb(1, 4, 43);
+    grid-template-areas:
+    'he he he he he he he'
+    '. di di di di di .'
+     ;
+    text-align: center;
+    
+    width: 100%;
+    color: white;
+}
+.team-head h1{
+    grid-area: he;
+    text-align: center;
+    padding-top: 1rem;
+}
+.team-head div{
+    grid-area: di;
+    height: 3px;
+    
+    
+    background: rgb(249, 249, 250);
+}
+.skill{
+    box-sizing: border-box;
+    background-color: rgb(1, 4, 43);
+    color: white;
+}
+.skill-bar{
+    
+    height: 15px;
+    width: 90%;
+    background-color: gray;
+    margin-left: 5%;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.skill-bar-fill{
+    height: 15px;
+    width: 0%;
+    background-color: hotpink;
+    transition: 3s;
+}
+.reviw{
+    display: grid;
+    height: auto;
+    width: 100%;
+    background-color: rgb(1, 4, 43);
+    grid-template-areas: 
+    'rev1 rev2'
+    'rev3 rev4'
+    'rev5 rev6'
+    ;
+}
+.rev1{
+    grid-area: rev1;
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    min-height:300px ;
+    transform: scale(.8);
+    background-color: yellow;
+    border-radius: 3px;
+}
+.rev2{
+    grid-area: rev2;
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    transform: scale(.8);
+    background: yellow;
+    border-radius: 3px;
+    min-height:300px ;
+}
+.rev3{
+    grid-area: rev3;
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    transform: scale(.8);
+    background: yellow;
+    border-radius: 3px;
+    min-height:300px ;
+}
+.rev4{
+    grid-area: rev4;
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    transform: scale(.8);
+    background: yellow;
+    border-radius: 3px;
+    min-height:300px ;
+}
+.rev5{
+    grid-area: rev5;
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    transform: scale(.8);
+    background: yellow;
+    border-radius: 3px;
+    min-height:300px ;
+}
+.rev6{
+    grid-area: rev6;
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    transform: scale(.8);
+    background: yellow;
+    border-radius: 3px;
+    min-height:300px ;
+}
+.log{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    top:0%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background: url("fb1.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 5px solid white;
+}
+.jft{
+    display: none;
+}
+.rev6 h5{
+    font-size: larger;
+}
+.rev5 h5{
+    font-size: larger;
+}
+.rev4 h5{
+    font-size: larger;
+}
+.rev3 h5{
+    font-size: larger;
+}
+.rev2 h5{
+    font-size: larger;
+}
+.rev1 h5{
+    font-size: larger;
+}
+
+.frm1,.frm2,.frm3,.frm4{
+    width: 50%;
+    height: auto;
+    float: left;
+}
+input{
+    height: auto;
+    width: 90%;
+    border-radius: 5px;
+}
+form{
+    margin-left: 5%;
+}
+textarea{
+    margin-top: 1rem;
+    width: 95%;
+}
+.input{
+    height: auto;
+    width: 30%;
+    background: rgb(9, 94, 223);
+}
+#inp{
+    float: right;
+    margin-right: 5%;
+}
+.footer{
+    background: rgb(20, 18, 18);
+    padding-top: 1rem;
+    color: white;
+}
+.phn div i{
+    transform: scale(1.5);
+}
+.fph0{
+    color: green;
+}
+.fa-envelope{
+    color: rgb(136, 122, 122);
+}
+.assss{
+    color: green;
+}
+.asss{
+    color: rgb(73, 51, 194);
+}
+.ass{
+    color: red;
+}
+.phn{
+    display: grid;
+    grid-template-areas:
+    'dd ff ee'
+     ;
+     margin: 0px 5%;
+}
+.col-d{
+    grid-area: dd;
+}
+.col-e{
+    grid-area: ee;
+}
+.col-f{
+    grid-area: ff;
+    display: grid;
+    height: 130px;
+    
+    grid-template-areas: 
+    'id1 id2'
+    'id3 id4'
+    ;
+    margin: 0px 20%;
+}
+.id1{
+    grid-area: id1;
+    background: url('M1.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    transform: scale(.9);
+}
+.id2{
+    grid-area: id2;
+    background: url('M1.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    transform: scale(.9);
+}
+.id3{
+    grid-area: id3;
+    background: url('M1.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    transform: scale(.9);
+}
+.id4{
+    grid-area: id4;
+    background: url('M1.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    transform: scale(.9);
+}
+.log2{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    top:0%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background: url("fb-1.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 5px solid white;
+}
+.log3{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    top:0%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background: url("fb0.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 5px solid white;
+}
+.log4{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    top:0%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background: url("fb2.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 5px solid white;
+}
+.log5{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    top:0%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background: url("fb3.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 5px solid white;
+}
+.log6{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    top:0%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background: url("fb4.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 5px solid white;
+}

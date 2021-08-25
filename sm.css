@@ -1,0 +1,97 @@
+.aa{
+    display: block;
+    
+}
+.bb{
+    display: none;
+}
+.ttu{
+    position: fixed;
+    top:50px;
+}
+.con-1{
+    left: 15%;
+}
+.con-2{
+    right: 15%;
+}
+.crd-sld1 p{
+    text-align: center;
+    font-size: smaller;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 1rem;
+
+}
+.crd-sld1{
+    width: 90%;
+}
+.crd-sld2 p{
+    text-align: center;
+    font-size: smaller;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 1rem;
+
+}
+.crd-sld2{
+    width: 90%;
+}
+.team{
+    width: 100%;
+    height: 400vh;
+    min-height: 1520px;
+    display: grid;
+    grid-template-areas: 
+    'tm1'
+    'tm2'
+    'tm3'
+    'tm4'
+    ;
+}
+.team-mem1, .team-mem2, .team-mem3, .team-mem4{
+    transform: scale(.9);
+}
+.rev1,.rev2,.rev3,.rev4,.rev5,.rev6{
+    transform: scale(.9);   
+    margin-top:1rem ;
+    border-radius: 3px;
+}
+.rev6 h5{
+    font-size: medium;
+}
+.rev5 h5{
+    font-size: medium;
+}
+.rev4 h5{
+    font-size: medium;
+}
+.rev3 h5{
+    font-size: medium;
+}
+.rev2 h5{
+    font-size: medium;
+}
+.rev1 h5{
+    font-size: medium;
+}
+.log,.log2,.log3,.log4,.log5,.log6{
+    height: 60px;
+    width: 60px;
+
+}
+.col-f{
+    height: 70px;
+}
+.phn div i{
+    transform: scale(1.1);
+}
+.phn div span{
+    font-size: smaller;
+}
+.phn{
+    display: grid;
+    grid-template-areas:
+    'dd ee'
+    'ff ff'
+     ;
+     margin: 0px 5%;
+}
